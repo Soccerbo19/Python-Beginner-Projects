@@ -22,6 +22,7 @@ def play_game():
             print(f"You rolled a {dice1} and a {dice2}. Total: {total}")
             if total == point:
                 print("You win! You matched your point.")
+                    break
             elif total == 7:
                 print("You Lose! You rolled a 7 before matching your point.")
                 break
@@ -29,4 +30,5 @@ def play_game():
 if play == "yes":
      play_game()
 else:
+
      print("Okay see you next time!")
